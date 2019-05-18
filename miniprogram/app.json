@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EF4238",
+    "navigationBarTitleText": "猫眼电影",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#EF4238",
+    "backgroundColor": "#FBFBFB",
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "images/dianying-origin.png",
+        "selectedIconPath": "images/dianying.png"
+      }, {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/wode-origin.png",
+        "selectedIconPath": "images/wode.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "我们需要您的位置以提供影院推荐"
+    }
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug" :true
+}

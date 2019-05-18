@@ -1,0 +1,6 @@
+/* pages/movie/movie.wxss */
+.movie-list-item {
+  min-height: 100rpx;
+  padding: 10rpx;
+  border-bottom: 1px solid #ddd;
+}

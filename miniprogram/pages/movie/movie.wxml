@@ -1,0 +1,11 @@
+<!--pages/movie/movie.wxml-->
+<view id='movie'>
+  <scroll-view
+    scroll-y>
+    <view class="movie-list-item" wx:for="{{movieList}}" wx:key="{{id}}">
+      <!-- <image src="{{item.img}}"></image> -->
+      <text>{{item.nm + ' coming at ' + item.comingTitle}}</text>
+      <text>{{'By ' + item.star}}</text>
+    </view>
+  </scroll-view>
+</view>
